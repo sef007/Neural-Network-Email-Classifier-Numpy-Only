@@ -86,6 +86,7 @@ class MyClassifier:
 
     def get_predictions(self, A2):
         return np.argmax(A2, 0)
+        # find the largest value in each col in matrix A2, (this will be the prediction, the highest probability it is in this class)
 
     def get_accuracy(self, predictions, Y):
         print(predictions, "\n", Y)
