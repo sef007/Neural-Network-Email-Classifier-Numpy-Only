@@ -2,12 +2,11 @@ import numpy as np
 
 class MyClassifier:
     def one_hot_encoding(self):
-        # You need to create a matrix of zeros initially for all the data
+        #creates a matrix of zeros initially for all the data
         Y = self.Y
         matrix = np.zeros((Y.size, 2))
 
-        # Iterate over the indices and assign 1 to the corresponding element in each row
-        # MAKE SURE YOU LEARN THE BELOW TECHNIQUE.
+        # Iterates over the indices and assign 1 to the corresponding element in each row
         for i, y in enumerate(Y):
             matrix[i, y] = 1
 
