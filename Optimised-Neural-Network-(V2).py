@@ -264,3 +264,6 @@ _, _, _, test_output = s.forward_propagation(weights1, weights2, bias1, bias2, t
 test_predictions = s.get_predictions(test_output)
 test_accuracy = s.get_accuracy(test_predictions, test_data[:, 0])
 print("Test Accuracy:", test_accuracy)
+
+#Final Accuracy - around 98.5%.
+
