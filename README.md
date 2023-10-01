@@ -6,7 +6,7 @@
 
 This program implements a neural network classifier from scratch to classify emails as either HAM or SPAM. It uses a custom implementation of a feedforward neural network with a rectified linear activation function (ReLU) in the hidden layer and a softmax activation function in the output layer. The model is trained using gradient descent with backpropagation.
 
-<img src="data/NN_pic.png" height="1500" width="1000" >
+<img src="data/NN_pic.png" height="1000" width="700" >
 
 ## **Key Features:**
 
