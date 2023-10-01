@@ -34,19 +34,10 @@ This program implements an optimised version of a neural network classifier for 
 mention hyper parameter search space 
 
 ## **Key Features:**
+- Data Split Drama: Thanks to train_test_split, we have a cast of training, validation, and testing sets.
+- Hyperparameter Quest: Seeking the perfect match of learning rate (alpha) and number of iterations.
+- Progress Bar Extravaganza: Watch the hyperparameter search unfold with style.
 
-- Random initialisation of weights and biases.
-- Rectified linear activation function (ReLU) in the hidden layer.
-- Softmax activation function in the output layer.
-- Forward propagation to compute the output of the neural network.
-- One-hot encoding of target labels to prepare them for classification.
-- Backward propagation to compute the gradients of the weights and biases.
-- Update of parameters using gradient descent.
-- Prediction of classes based on the highest probability in the output layer.
-- Calculation of accuracy to evaluate the model's performance.
-- Splitting the data into training, validation, and testing sets using **`train_test_split`**.
-- Hyperparameter search to find the best combination of learning rate (alpha) and number of iterations.
-- Progress bar display during the hyperparameter search process.
 
 ## **Usage:**
 
